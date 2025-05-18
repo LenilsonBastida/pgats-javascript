@@ -4,7 +4,40 @@ Este repositório contém os exercícios desenvolvidos durante a disciplina **Pr
 
 ---
 
+## 💻 Pré-Requisitos
+Antes de iniciarmos com a mão na massa, realizamos as seguintes instalações:
+
+**Instalar o GIT**
+```bash
+https://git-scm.com/downloads
+```
+**Instalar o Visual Studio Code**
+```bash
+https://code.visualstudio.com/downloads
+```
+**Instalar o Node.js**
+```bash
+https://nodejs.org
+```
+**Criar conta no Github**
+```bash
+https://github.com
+```
+
 ## 📚 Conteúdo Estudado
+
+### Principais comandos do Git
+- git clone – Copia um repositório remoto para sua máquina local.
+- git init – Cria um novo repositório Git em um diretório local.
+- git add – Adiciona arquivos ao estágio (staging area) para serem comitados.
+- git commit – Salva as alterações adicionadas ao repositório com uma mensagem.
+- git push – Envia os commits locais para o repositório remoto.
+- git pull – Atualiza o repositório local com as mudanças do repositório remoto.
+- git status – Mostra o estado atual dos arquivos no repositório.
+- git log – Exibe o histórico de commits do repositório.
+- git branch – Lista, cria ou exclui ramificações (branches).
+- git checkout – Muda para outra branch ou restaura arquivos para um estado anterior.
+- git merge – Junta as alterações de uma branch com outra.
 
 ### Introdução ao JavaScript
 
