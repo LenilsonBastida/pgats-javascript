@@ -53,6 +53,11 @@ let dono
 
 /*
     Strings
+    Três formas de atribuir uma string:
+
+    'Turma 02 do PGATS' - aspas simples ou single quote
+    "Turma 02 do PGATS" - aspas duplas ou double quote
+    `Turma 02 do PGATS` - template strings (atalho: alt + 96)
 */
 
 const numeroAula = "03"
@@ -62,7 +67,7 @@ let data = "05 de Abril"
 // Concatenação de strings (aspas duplas ou simples)
 console.log("Aula 03 da Turma " + turma + ' no Sábado dia 05 de Abril')
 
-// Interpolação de strings (crase)
+// Interpolação de strings (crase - template strings)
 console.log(`Aula ${ numeroAula } da Turma ${ turma } no Sábado dia ${ data }`)
 
 // Length - Tamanho da string
@@ -80,19 +85,19 @@ console.log(nomeDeAlunos.toLowerCase())
 // ToUpperCase - Transforma a string em maiúscula
 console.log(nomeDeAlunos.toUpperCase())
 
-// Icludes - Verifica se a string contém outra string
+// Icludes - Verifica se a string contém outra string ou parte dela
 console.log(nomeDeAlunos.includes("Goku")) // true
 console.log(nomeDeAlunos.includes("Dennys")) // false
 
 // Replace - Substitui uma parte da string por outra
-console.log(nomeDeAlunos.replace("Goku", "Goku - 98 a.C."))
+console.log(nomeDeAlunos.replace("Giuliana", "Dennys"))
 
 // ReplaceAll - Substitui todas as partes da string por outra
 console.log(nomeDeAlunos.replaceAll(" ", "-"))
 
 // Trim - Remove espaços em branco no início e no final da string
-const nomeDeAlunosComEspacos = "    Giuliana André Goku Lucas Lenilson    "
-console.log(nomeDeAlunosComEspacos.trim())
+const textoComEspacos = "    Aqui existem espaços, inicio e fim        "
+console.log(textoComEspacos.trim())
 
 // Slice - Pega uma parte da string
 let dataParaCortar = "05 de Abril"

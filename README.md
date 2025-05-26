@@ -24,7 +24,7 @@ https://nodejs.org
 https://github.com
 ```
 
-## 📚 Conteúdo Estudado
+## 📚 Conteúdo
 
 ### Principais comandos do Git
 - git clone – Copia um repositório remoto para sua máquina local.
@@ -39,22 +39,29 @@ https://github.com
 - git checkout – Muda para outra branch ou restaura arquivos para um estado anterior.
 - git merge – Junta as alterações de uma branch com outra.
 
-### Introdução ao JavaScript
+## Introdução ao JavaScript
 
-#### Console API
+### Console API
 - `console.log()` – Exibe mensagens
 - `console.error()` – Exibe erros
 - `console.warn()` – Exibe avisos
 - `console.table()` – Exibe tabelas
 
-#### Constantes e Variáveis
-- `const` para valores imutáveis
-- `let` para valores mutáveis
+### Constantes e Variáveis
+- `const` - Para valores imutáveis
+- `let` - Para valores mutáveis
 
-#### Strings
-- Manipulação de texto com métodos como `.length`, `.split()`, `.toUpperCase()`, `.toLowerCase()`, `.includes()`, `.replace()`, `.trim()`, `.slice()`, `.substring()`
+### Strings
+#### Manipulação de texto com métodos:
+- `.length` - Tamanho da string
+- `.split()` - Divide a string em partes
+- `.toUpperCase()` - Transforma a string em maiúscula
+- `.toLowerCase()` - Transforma a string em minúscula
+- `.includes()` - Verifica se a string contém outra string ou parte dela
+- `.replace()` - Substitui uma parte da string por outra
+- `.trim()` - Remove espaços em branco no início e no final da string
+- `.slice()` / `.substring()` - Pegam uma parte da string
 
----
 
 ## 🧪 Exercícios
 
@@ -64,8 +71,8 @@ Script que gera uma tag de coleira para cães no abrigo com:
 - Raça com inicial maiúscula
 - Peso do pet
 
-### Exercicio 02: Validador de Nome
-Script que:
+### Exercicio 02: Validador de nomes para as tags
+Script que formata e valida os nomes:
 - Remove espaços desnecessários
 - Formata o nome com inicial maiúscula
 - Verifica se o nome possui apenas uma palavra
