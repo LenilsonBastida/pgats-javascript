@@ -3,7 +3,7 @@
   -- decremento
   ++ incremento
 
-  ?  ternário
+  ?  ternário // Retorna com base em uma condição
   
  */
 
